@@ -66,7 +66,7 @@ no pixel at left or top to compare to instead we go to the very next pixel who
 has all the four neighbours.
 
 You also note that the application of the next (3, 3) Conv2D layer another two
-pixel data is lost.
+pixel data is lost in each direction X and Y.
 
 '''
 
