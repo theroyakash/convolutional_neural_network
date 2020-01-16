@@ -1,6 +1,9 @@
 import tensorflow as tf
 
-# Load the dataset:
+# Loading the dataset available publicly as MNISTs:
+
+# Here we have total of 70000 images of fashion items and train-test set split is as follows:
+# 60k images for training and 10k images for testing the Model
 
 mnist = tf.keras.datasets.fashion_mnist
 (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
